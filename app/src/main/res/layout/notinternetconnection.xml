@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/txt_bonazo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:text="@string/bonanzo"
+        android:textColor="@color/white"
+        android:fontFamily="@font/reem_kufi"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/txt_get_start"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/blude_button"
+        android:gravity="center"
+        android:fontFamily="@font/reem_kufi"
+        android:text="@string/getstart"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ll_net"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/network_image" />
+
+        <TextView
+            android:id="@+id/txt_nointernet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/reem_kufi"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/no_inter"
+            android:textColor="@color/appcolor"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/txt_please"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/reem_kufi"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/please_check"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/txt_refresh"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/blude_button"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/refresh"
+        android:fontFamily="@font/reem_kufi"
+        app:layout_constraintTop_toBottomOf="@+id/ll_net"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="50dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

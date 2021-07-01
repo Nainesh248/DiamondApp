@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "454841401948",
+    "project_id": "free-daily-diamond",
+    "storage_bucket": "free-daily-diamond.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454841401948:android:f7f2bf2f5e3e3748909c99",
+        "android_client_info": {
+          "package_name": "com.adsum.freediamond"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454841401948-61vs9ipem720qbecim0ro2oevb26rhfi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpTSgD2CRx6g1i8QH1JzdVrxmQkleDAsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454841401948-61vs9ipem720qbecim0ro2oevb26rhfi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
